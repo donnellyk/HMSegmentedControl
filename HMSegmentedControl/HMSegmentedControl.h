@@ -116,6 +116,15 @@ typedef enum {
  */
 @property (nonatomic, assign) CGFloat verticalDividerWidth;
 
+
+/**
+ Used in calculating height and position of the vertical divider between segments that is added when `verticalDividerEnabled` is set to YES.
+ Left and Right values ignored.
+ 
+ Default is 'Top: 0.0f, Bottom: 0.0f'
+ */
+@property (nonatomic, assign) UIEdgeInsets verticalDividerInset;
+
 /**
  Specifies the style of the control
  
