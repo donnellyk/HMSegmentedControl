@@ -1,3 +1,9 @@
+This is a fork of HMSegmentedControl to change some functionality. It is a dependency of the iOS app.
+
+If the line `pod 'HMSegmentedControl', :git => 'https://github.com/voxy/HMSegmentedControl'` no longer exists in the `Podfile` in the iOS repo, you can safely delete this repo.
+
+
+
 HMSegmentedControl
 ===
 
